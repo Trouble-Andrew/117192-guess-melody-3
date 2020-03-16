@@ -12,6 +12,8 @@ export const createAPI = (onUnauthorized) => {
   });
 
   const onSuccess = (response) => {
+    console.log(response);
+    
     return response;
   };
 
